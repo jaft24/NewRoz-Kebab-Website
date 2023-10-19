@@ -1,0 +1,322 @@
+/* ------------------------------------------------------*/
+/* -----------CSS STYLES THE MENU PAGES-----------------*/
+/* ----------------------------------------------------*/
+
+
+
+.page_manuver{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.left_arrow{
+  height: 20px;
+  width: 20px;
+}
+.fill_circle{
+  height: 12px;
+  width: 12px;
+}
+.open_circle{
+  height: 12px;
+  width: 12px;
+}
+.right_arrow{
+  height: 20px;
+  width: 20px;
+}
+.MandRheader{
+  color: red; 
+  margin: auto;
+  text-align: center;
+}
+.product_item{
+    width: 275px;
+    height: 310px;
+    margin: 10px;
+    border: solid 1px #f5c377;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #f4dab4; 
+    margin-bottom: 20px;
+}
+.product_item:hover{
+    border: solid 1px red;
+}
+.item_name{
+    margin-top:5px;
+    margin-bottom: 15px;
+    height:25px;
+    padding: 15px;
+    background-color: #f4dab4;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid px red;
+}
+.ground_Kebab_Items{
+    transform: scale(0.9); 
+    margin-top: -15px;
+}
+.menu_wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.item_image{
+    width: 275px;
+    height: 250px;
+    border-radius: 10px;
+}
+.p{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: red;
+    font-size: larger;
+}
+.bTon{
+    background-color: #f4dab4; 
+    border: 0;
+    border-radius: 12px;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+.bTon:not([disabled]):focus {
+    border: 1.5px solid red;
+    background-color: #fcebd1;
+}
+.bTon:not([disabled]):hover {
+    border: 1.5px solid red;
+    background-color: #fcebd1;
+}
+.b{
+text-decoration: none;
+color: red;
+}
+.cart {
+    position: absolute;
+    top: 34%;
+    right: 8%;
+    height: 50px;
+    width: 50px;
+}
+.item_amount{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 33.4%;
+    right: 7.5%;
+    height: 23px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.7;
+    text-align: center;
+}
+
+/*----------START Canva-----------*/
+
+/*----------Meat and Rice Canva-----------*/
+
+.MandR_top_left_canva{
+    top: 31%;
+    left: 2.5%;
+    width: 41%;
+    height: 0.3%;
+}
+.MandR_top_right_canva{
+    top: 38%;
+    right: 11%;
+    width: 23%;
+    height: 0.3%;
+}
+.MandR_left_canva{
+    top: 28%;
+    left: 4.5%;
+    height: 183%;
+}
+.MandR_right_canva{
+    top: 18%;
+    right: 4.5%;
+    height: 195%;
+}
+.MandR_bottom_canva{
+    bottom: -136%;
+    left: 1%;
+    width: 97%;
+    height: 0.3%;
+}
+
+/*----------Salad and Stew Canva-----------*/
+
+.SandS_top_left_canva{
+    top: 31%;
+    left: 2.5%;
+    width: 41%;
+    height: 0.3%;
+}
+.SandS_top_right_canva{
+    top: 38%;
+    right: 11%;
+    width: 23%;
+    height: 0.3%;
+}
+.SandS_left_canva{
+    top: 28%;
+    left: 4.5%;
+    height: 72%;
+}
+.SandS_right_canva{
+    top: 18%;
+    right: 4.5%;
+    height: 82%;
+}
+.SandS_bottom_canva{
+    bottom: -23.5%;
+    left: 1%;
+    width: 97%;
+    height: 0.3%;
+}
+
+/*----------Meals Canva-----------*/
+
+.M_top_left_canva{
+    top: 31%;
+    left: 2.5%;
+    width: 44%;
+    height: 0.3%;
+}
+.M_top_right_canva{
+    top: 38%;
+    right: 11%;
+    width: 23%;
+    height: 0.3%;
+}
+.M_left_canva{
+    top: 28%;
+    left: 4.5%;
+    height: 72%;
+}
+.M_right_canva{
+    top: 18%;
+    right: 4.5%;
+    height: 82%;
+}
+.M_bottom_canva{
+    bottom: -23.5%;
+    left: 1%;
+    width: 97%;
+    height: 0.3%;
+}
+
+/*----------Wraps and Sandwiches Canva-----------*/
+
+.WandS_top_left_canva{
+    top: 31%;
+    left: 2.5%;
+    width: 38%;
+    height: 0.3%;
+}
+.WandS_top_right_canva{
+    top: 38%;
+    right: 11%;
+    width: 23%;
+    height: 0.3%;
+}
+.WandS_left_canva{
+    top: 28%;
+    left: 4.5%;
+    height: 127%;
+}
+.WandS_right_canva{
+    top: 18%;
+    right: 4.5%;
+    height: 140%;
+}
+.WandS_bottom_canva{
+    bottom: -80%;
+    left: 1%;
+    width: 97%;
+    height: 0.3%;
+}
+
+/*----------Sides Canva-----------*/
+
+.S_top_left_canva{
+    top: 31%;
+    left: 2.5%;
+    width: 44%;
+    height: 0.3%;
+}
+.S_top_right_canva{
+    top: 38%;
+    right: 11%;
+    width: 23%;
+    height: 0.3%;
+}
+.S_left_canva{
+    top: 28%;
+    left: 4.5%;
+    height: 72%;
+}
+.S_right_canva{
+    top: 18%;
+    right: 4.5%;
+    height: 82%;
+}
+.S_bottom_canva{
+    bottom: -23.5%;
+    left: 1%;
+    width: 97%;
+    height: 0.3%;
+}
+
+/*----------Drinks Canva-----------*/
+
+.D_top_left_canva{
+    top: 31%;
+    left: 2.5%;
+    width: 44%;
+    height: 0.3%;
+}
+.D_top_right_canva{
+    top: 38%;
+    right: 11%;
+    width: 23%;
+    height: 0.3%;
+}
+.D_left_canva{
+    top: 28%;
+    left: 4.5%;
+    height: 72%;
+}
+.D_right_canva{
+    top: 18%;
+    right: 4.5%;
+    height: 82%;
+}
+.D_bottom_canva{
+    bottom: -23.5%;
+    left: 1%;
+    width: 97%;
+    height: 0.3%;
+}
+
+/*----------END Canva-----------*/

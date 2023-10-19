@@ -1,0 +1,1253 @@
+/* This first section makes the whole document have no white edges in the corner and gives the whole page structure */
+*
+{
+margin: 0;
+padding: 0;
+}
+
+/* This section has the color and font of the whole form */
+body {font-family: Courier; color: black; background-color: #fcebd1; }
+
+.header_admin{
+  position:absolute;
+  top: 3%;
+  left: 96%;
+  cursor: pointer;
+ }
+
+.header {
+  background-color: #fcebd1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+}
+
+/* ------------------------------------------------------*/
+/* ---------------------HOME----------------------------*/
+/* ----------------------------------------------------*/
+
+.a {
+  text-decoration:none;
+  color:red;
+}
+.a:hover {
+  color: white;
+}
+
+.button {
+    background-color: #fcebd1;
+    font-weight: bold;
+    color: red;
+    border-color: red;
+    border-width: 1px;
+    padding: 8px 15px;
+    cursor: pointer;
+    position:relative; 
+    
+  }
+    /* This makes the buttons solid and a difffernt color upon the hover of a mouse */
+ .button:hover {
+    background-color: red;
+    text-color: white;
+  }
+
+.body_components {
+  display: flex;
+  background-color: #fcebd1;
+  align-items: flex-start;
+  margin: 1%;
+}
+  .social_media {
+    background-color: #fcebd1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    margin-left: 1%;
+    margin-top: 12%;
+  }
+.Facebook_logo:hover{
+    transform: scale(1.125);
+}
+.Instagram_logo:hover{
+  transform: scale(1.125);
+}
+.Twitter_logo:hover{
+  transform: scale(1.125);
+}
+  .wrapper{
+    background-color: #fcebd1;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 600px;
+    width: 700px;
+    margin: 0 auto;
+  } 
+  .side_slogan {
+    background-color: #fcebd1;
+    height: 450px;
+    width: 50px;
+    margin-right: 8%;
+    height: 700px;
+
+  }
+  p1 {
+    writing-mode: vertical-rl;
+    color: red;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size:80px;
+  }
+.reviews {
+  background-color: #fcebd1;
+  margin-top: -2%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 20%;
+}
+  .checked {
+    color: red;
+  }
+ .written_comment{
+  margin-left: 13.5%;
+ }
+ .name_and_stars {
+  margin-left: 2%;
+ }
+
+ .Sign_up_in {
+  display: flex;
+  background-color: #f4dab4;  
+  align-items:center;
+  margin: 0%;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.email1 {
+  position: relative;
+  left: 10%;
+}
+
+ .customer_section{
+  background-color: #fcebd1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  margin-top: 1%;
+  height: 100px;
+  color: grey;
+ }
+
+.sign_in {
+  height: 200px;
+  width: 300px;
+  opacity: 0.5;
+  margin-left: -2%;
+  margin-top: -3%;
+}
+.sign_in:hover {
+  background-color: #f4dab4;
+  transform: scale(1.05);
+  opacity: 1;
+}
+.input{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black;
+  width: 100%;
+}
+.form1 {
+ margin: 5%;
+ justify-content: center;
+}
+.sign_up {
+  height: 225px;
+  width: 300px;
+  opacity: 0.5;
+  margin-top: -6%;
+  margin-right: -2%;
+}
+.sign_up:hover {
+  background-color: #f4dab4;
+  transform: scale(1.05);
+  opacity: 1;
+}
+.form2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+ }
+ .front_button{
+  /* background: linear-gradient(to bottom right, #EF4765, #FF9A5A); */
+  background-color: #fcebd1;
+  border: 0;
+  border-radius: 12px;
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-left: 70%;
+}
+.front_button:not([disabled]):focus {
+  border: 1.5px solid red;}
+.front_button:not([disabled]):hover {
+  border: 1.5px solid red;}
+.sign_in_image{
+  position: absolute;
+  margin-top: -11.2%;
+  margin-left: -17%;
+}
+.sign_in_image:hover{
+  opacity: 0.2;
+}
+.customer_section2{
+  background-color: #fcebd1;
+  display: flex;
+  margin-top: -1%;
+  justify-content: space-around;
+  align-items: center; 
+  height: 100px;
+ }
+ 
+canvas{
+  position:absolute;
+  width: 0.1%;
+  background-color: rgb(255, 75, 75); 
+}
+ .top_left_canva {
+  top: 18%;
+  left: 4.5%;
+  height: 40%;
+ }
+ .right_canva {
+  top: 18%;
+  right: 4.5%;
+  height: 148%;
+ }
+ .middle_canva{
+  top: 89%;
+  left: 4.5%;
+  height: 34%;
+ }
+ .review_canva{
+  top: 126%;
+  left: 15%;
+  width: 64%;
+  height: 0.3%;
+ }
+.left_divide_canva{
+  top: 171%;
+  left: 32%;
+  height: 42%;
+}
+.right_divide_canva{
+  top: 171%;
+  right: 32%;
+  height: 42%;
+}
+.bottom_canva{
+  bottom: -142.5%;
+  left: 1%;
+  width: 97%;
+  height: 0.3%;
+}
+
+
+/* ------------------------------------------------------*/
+/* --------------------Pop Up Login---------------------*/
+/* ----------------------------------------------------*/
+
+.admin_login_contact_form{
+  display:none;
+  background-color: #f4dab4;
+  position: absolute;
+  text-align:center;
+  padding: 10px;
+  top: 20%;
+  left: 35%;
+  height: 450px;
+  width: 400px;
+}
+.x_mark{
+  position: absolute;
+  height: 25px;
+  widtgh: 25px;
+  top: 2.5%;
+  left: 90%;
+  cursor: pointer;
+}
+.admin_image{
+  margin: 18px;
+  width: 75px;
+  height: 75px;
+}
+.admin_input {
+  margin: 18px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black;
+  width: 50%;
+}
+.admin_login_button{
+    background-color: #fcebd1;
+    border: 0;
+    border-radius: 12px;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  .admin_login_button:not([disabled]):focus {
+    border: 1.5px solid red;}
+  .admin_login_button:not([disabled]):hover {
+    border: 1.5px solid red; }
+  .forgotpass_text{
+    margin-left: 60%;
+    color: red;
+    opacity: 0.3;
+  }
+.popup_top_canva{
+  top: 5.5%;
+  left: 4%;
+  width: 75%;
+  height: 0.3%
+}
+.popup_left_canva{
+  top: 2.5%;
+  left: 7%;
+  height: 22.25%;
+}
+
+
+/* ------------------------------------------------------*/
+/* ----------------------Our Story----------------------*/
+/* ----------------------------------------------------*/
+
+.our_story_top_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-;
+  margin-top: -3%;
+}
+.Sarbest_image{
+  width: 280px;
+  height: 310px;
+  margin-left: 2%;
+}
+.Sarbest_image:hover{
+  transform: scale(1.03);
+}
+.owner_description{
+  font-family: Bradley Hand ITC;
+  font-size: 20px;
+}
+.owner_description_div{
+  text-align: justify;
+  text-justify: inter-word;
+  width: 700px;
+  margin-left: 3%;
+}
+.rate_us_on{
+  text-align: center;
+  margin-left: 7%;
+  width: 300px;
+
+}
+.our_story_bottom_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -70px;
+}
+.mission_image{
+  margin-right: -1%;
+}
+.customer_image{
+  width: 400px;
+}
+.customer_image:hover{
+  transform: scale(1.02);
+}
+.our_mission{
+  margin-left: 1%;
+}
+.mission_descrption{
+  font-family: Bradley Hand ITC;
+  font-size: 20px;
+}
+.mission_descrption_div{
+  margin-left: 22%;
+}
+
+.story_top_left_canva{
+  top: 18%;
+  left: 4.5%;
+  height: 25%;
+}
+.story_right_canva{
+  top: 18%;
+  right: 4.25%;
+  height: 52%;
+}
+.story_left_bottom_canva{
+  top: 67%;
+  left: 9.25%;
+  height: 18%;
+}
+.story_left_bottom_top_canva{
+  top: 69%;
+  left: 7%;
+  width: 20%;
+  height: 0.2%;
+}
+.stroy_bottom_corner_canva{
+  bottom: 2.2%;
+  left: 77%;
+  width: 21%;
+  height: 0.2%;
+}
+.stroy_right_corner_canva{
+  top: 84.5%;
+  left: 96.35%;
+  height: 15%;
+}
+.story_bottom_canva{
+  bottom: -23%;
+  left: 1%;
+  width: 97%;
+  height: 0.3%;
+}
+
+
+/* ------------------------------------------------------*/
+/* ---------------------Reservation---------------------*/
+/* ----------------------------------------------------*/
+
+.Reservation_page_body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+  margin-bottom: 5%;
+}
+.reservation_section_left{
+  margin-top: -4.1%;
+}
+.open_hours{
+margin-right: 10%;
+}
+.inside_image{
+  width: 350px;
+  height: 300px;
+}
+.inside_image:hover{
+  transform: scale(1.05);
+}
+.NRK_map {
+  width: 350px;
+  height: 300px;
+  border: 0;
+}
+.reservtaion_form{
+  border-radius: 15px;
+  height: 320px;
+  background-color: #f4dab4;
+  margin: 2%;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 160px;
+}
+.reservtaion_form:hover{
+  transform: scale(1.05);
+}
+.form_control{
+  margin-top: 5%;
+  width:  100%;
+  height: 40px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+.people_form_control{
+  margin-top: 5%;
+  width:  100%;
+  height: 40px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+}
+.find_a_table{
+  margin: auto;
+  margin-top: 50px;
+  background-color: #f4dab4; 
+  border: 0;
+  border-radius: 12px;
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+.find_a_table:not([disabled]):focus {
+  border: 1.5px solid red;
+  background-color: #fcebd1;
+}
+.find_a_table:not([disabled]):hover {
+  border: 1.5px solid red;
+  background-color: #fcebd1;
+}
+
+.reservation_left_image_canva{
+  top: 29%;
+  left: 5.9%;
+  height: 22.25%;
+}
+.reservation_right_image_canva{
+  top: 28%;
+  left: 35%;
+  height: 89%;
+}
+.reservation_top_image_canva{
+  top: 31%;
+  left: 5%;
+  width: 22.25%;
+  height: 0.3%
+}
+.reservation_middle_canva {
+  top: 28%;
+  right: 35%;
+  height: 89%;
+}
+.reservation_right_canva{
+  top: 19%;
+  right: 4.5%;
+  height: 100%;
+}
+.reservation_bottom_canva{
+  bottom: -42.5%;
+  left: 1%;
+  width: 97%;
+  height: 0.3%;
+}
+
+
+
+
+/* ------------------------------------------------------*/
+/* ----------------------Order Now----------------------*/
+/* ----------------------------------------------------*/
+
+/* This part is a CSS for the Order_Now Part */
+.Delivery_Section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  margin-top: 2%;
+}
+.delivery{
+  margin: auto;
+  margin-top: 25px;
+  font-weight: bold;
+  background-color: #f4dab4; 
+  border: solid 1px;
+  border-radius: 12px;
+  padding: 5px 10px;
+  height: 100px;
+  width: 200px;
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;  
+}
+.delivery:not([disabled]):focus {
+  border: solid 1px;
+}
+.delivery:not([disabled]):hover {
+  border: solid 1px;
+}
+.pickup{
+  opacity: 0.5;
+  margin: auto;
+  margin-top: 25px;
+  font-weight: bold;
+  background-color: #f4dab4; 
+  border: none;
+  border-radius: 12px;
+  padding: 5px 10px;
+  height: 100px;
+  width: 200px;
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap; 
+}
+.pickup:not([disabled]):focus {
+  border: solid 1px;
+}
+.pickup:not([disabled]):hover {
+  border: solid 1px;
+}
+.Address{
+  width:  97%;
+  height: 40px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black;
+}
+
+.Apartment{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width:  97%;
+  height: 40px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black;
+}
+
+.time{
+  width:  48.5%;
+  height: 50.5px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black;
+}
+.delivery_date{
+  width:  46.5%;
+  height: 40px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black;
+}
+
+.placing{
+  margin: auto;
+  margin-top: 25px;
+  background-color: #f4dab4; 
+  border: 0;
+  border-radius: 12px;
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+.placing:not([disabled]):focus {
+  border: 1.5px solid red;
+  background-color: #fcebd1;
+}
+.placing:not([disabled]):hover {
+  border: 1.5px solid red;
+  background-color: #fcebd1;
+}
+.order_date_and_time{
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.order_now_image{
+  position: absolute;
+  top: 46%;
+  left: 9%;
+  height: 220px;
+  width: 370px;
+}
+.order_left_canva {
+  top: 18%;
+  left: 4.5%;
+  height: 88%;
+}
+.order_right_canva {
+  top: 18%;
+  right: 4.5%;
+  height: 88%;
+}
+.order_form_top_canva{
+  top: 30.5%;
+  left: 36%;
+  width: 32%;
+  height: 0.2%;
+}
+.order_form_right_canva{
+  top: 26%;
+  right: 34.5%;
+  height: 22%;
+}
+.order_bottom_canva {
+  bottom: -28%;
+  left: 1%;
+  width: 97%;
+  height: 0.3%;
+}
+
+/* ------------------------------------------------------*/
+/* -------------------------Menu------------------------*/
+/* ----------------------------------------------------*/
+
+.menu_header{
+  text-align: center;
+  color: red;
+}
+.product_wrap{
+  display: flex;
+}
+.img{
+  height: 350px;
+  width: 350px;
+  margin: 2px;
+}
+.menu_items{
+  margin-left: 15%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.menu_faded1 {
+  position: absolute;
+  top: 42.3%;
+  left: 17.3%;
+  width: 275px;
+  height: 275px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4dab4;
+  padding: 5px;
+  opacity: 0.4;
+  text-align: justify;
+}
+.menu_faded2 {
+  position: absolute;
+  top: 42.3%;
+  left: 40.7%;
+  width: 275px;
+  height: 275px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4dab4;
+  padding: 5px;
+  opacity: 0.4;
+  text-align: justify;
+}
+.menu_faded3 {
+  position: absolute;
+  top: 42.3%;
+  left: 63.9%;
+  width: 275px;
+  height: 275px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4dab4;
+  padding: 5px;
+  opacity: 0.4;
+  text-align: justify;
+}
+.menu_faded4 {
+  position: absolute;
+  top: 91.7%;
+  left: 17.3%;
+  width: 275px;
+  height: 275px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4dab4;
+  padding: 5px;
+  opacity: 0.4;
+  text-align: justify;
+}
+.menu_faded5 {
+  position: absolute;
+  top: 91.7%;
+  left: 40.7%;
+  width: 275px;
+  height: 275px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4dab4;
+  padding: 5px;
+  opacity: 0.4;
+  text-align: justify;
+}
+.menu_faded6 {
+  position: absolute;
+  top: 91.7%;
+  left: 63.9%;
+  width: 275px;
+  height: 275px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4dab4;
+  padding: 5px;
+  opacity: 0.4;
+  text-align: justify;
+}
+.menu_label{
+  color: red;
+  text-align: center;
+}
+.menu_faded1:hover, 
+.menu_faded2:hover,
+.menu_faded3:hover,
+.menu_faded4:hover,
+.menu_faded5:hover,
+.menu_faded6:hover
+ {
+  opacity: 0.9;
+  transform: scale(1.16);
+}
+.menu_description{
+  alignment: justify;
+  margin: 10px;
+  margin-top: 15px;
+  font-size: 13px;
+}
+.menu_desc_top_canva{
+  position: relative;
+  top: 2%;
+  width: 62.25%;
+  height: 0.3%
+}
+.menu_desc_bottom_canva{
+  position: relative;
+  top: 70%;
+  width: 62.25%;
+  height: 1%
+}
+
+.menu_top_left_canva{
+  top: 30.5%;
+  left: 10%;
+  width: 36.5%;
+  height: 0.2%;
+}
+.menu_top_left_right_canva{
+  top: 25%;
+  left: 12.5%;
+  height: 30%;
+}
+.menu_top_right_canva1{
+  top: 138.5%;
+  right: 10%;
+  width: 30.5%;
+  height: 0.2%;
+}
+.menu_top_right_canva2{
+  top: 86.5%;
+  right: 13.5%;
+  height: 55%;
+}
+.menu_left_canva{
+  top: 18%;
+  left: 4.5%;
+  height: 123%;
+}
+.menu_right_canva{
+  top: 18%;
+  right: 4.5%;
+  height: 123%;
+}
+.menu_bottom_canva{
+  bottom: -65%;
+  left: 1%;
+  width: 97%;
+  height: 0.3%;
+}
+.b{
+  text-decoration:none;
+  color: black;
+}
+
+/* ------------------------------------------------------*/
+/* ---------------------Contact US----------------------*/
+/* ----------------------------------------------------*/
+
+.contact_form {
+background-color: #f4dab4; 
+display: flex;
+height:450px;
+align-items: center;
+width: 65%;
+margin-left: 10%;
+margin-bottom: 3%;
+}
+  
+    /* This decided the color and alignment of the header */
+.contact_header {
+  color: red;  
+  margin-left: 18%;
+}
+  
+    /* This section customizes the second larget div block (Contactform) */
+.form {
+  background-color: #f4dab4; 
+  margin-left: 3%;
+  opacity: 0.5;
+}
+.ConatcUS_image{
+  height: 391px; 
+  width: 405px;
+  margin-left: 70px;
+}
+    /* This makes the contact form box solid upon the hover of a mouse */
+.form:hover {
+  opacity: 1.0;
+  transform: scale(1.01);
+
+}
+.textarea{
+  width: 100%;
+  height: 110px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+.form_input{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+.radio {
+  accent-color: red;
+}
+::placeholder {
+  color: black;
+  opacity: 0.75; /* Firefox */
+}
+.submit_button {
+    background-color: #fcebd1;
+    border: 0;
+    border-radius: 12px;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-left: 80%;
+  }
+  .submit_button:not([disabled]):focus {
+    border: 1.5px solid red;
+  }
+  .submit_button:not([disabled]):hover {
+    border: 1.5px solid red;
+  }
+.contact_left_canva{
+  top: 18%;
+  left: 4.5%;
+  height: 87%;
+}
+.contact_bottom_canva{
+  bottom: -28%;
+  left: 1%;
+  width: 97%;
+  height: 0.3%;
+}
+.contact_small_right_canva{
+  top: 83.5%;
+  left: 76.5%;
+  height: 20%;
+}
+.contact_small_bottom_canva{
+  bottom: -1%;
+  left: 58%;
+  width: 20%;
+  height: 0.2%;
+}
+
+
+// Form validation 
+
+/* ----------------- Admin Login ---------------- */
+
+.adminlogin_sections.success input{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+
+/* This makes the small sections invisible to the user to wait until the user commits an error*/
+.adminlogin_sections small{
+  display: none;
+  color: red;
+  font-size: 13px;
+}
+
+/* This makes the contact form input boxes red*/
+.adminlogin_sections.error input{
+border: 1px solid red;
+border-radius: 5px;
+}
+
+/* This makes the small sections visible to the user beacuse the user commited an error*/
+.adminlogin_sections.error small{
+  visibility: visible;
+}
+
+
+/* ----------------- Sign In ---------------- */
+
+.signin_sections.success input{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+
+/* This makes the small sections invisible to the user to wait until the user commits an error*/
+.signin_sections small{
+  visibility: hidden;
+  color: red;
+  font-size: 13px;
+}
+
+/* This makes the contact form input boxes red*/
+.signin_sections.error input{
+border: 1px solid red;
+border-radius: 5px;
+}
+
+/* This makes the small sections visible to the user beacuse the user commited an error*/
+.signin_sections.error small{
+  visibility: visible;
+}
+
+/* ----------------- Sign Up ---------------- */
+
+.signup_sections.success input{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+
+/* This makes the small sections invisible to the user to wait until the user commits an error*/
+.signup_sections small{
+  visibility: hidden;
+  color: red;
+  font-size: 13px;
+}
+
+/* This makes the contact form input boxes red*/
+.signup_sections.error input{
+border: 1px solid red;
+border-radius: 5px;
+}
+
+/* This makes the small sections visible to the user beacuse the user commited an error*/
+.signup_sections.error small{
+  visibility: visible;
+}
+
+
+/* ----------------- Reservation ---------------- */
+
+.reservation_sections.success input{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+
+/* This makes the small sections invisible to the user to wait until the user commits an error*/
+.reservation_sections small{
+  visibility: hidden;
+  color: red;
+  font-size: 13px;
+}
+
+/* This makes the contact form input boxes red*/
+.reservation_sections.error input{
+border: 1px solid red;
+border-radius: 5px;
+}
+
+/* This makes the small sections visible to the user beacuse the user commited an error*/
+.reservation_sections.error small{
+visibility: visible;
+}
+
+/* ----------------- Order Now ---------------- */
+
+.order_section.success input{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+
+
+/* This makes the small sections invisible to the user to wait until the user commits an error*/
+.order_section small{
+  visibility: hidden;
+  color: red;
+  font-size: 13px;
+}
+
+/* This makes the contact form input boxes red*/
+.order_section.error input{
+border: 1px solid red;
+border-radius: 5px;
+}
+
+/* This makes the small sections visible to the user beacuse the user commited an error*/
+.order_section.error small{
+visibility: visible;
+}
+
+/* ----------------- Contact US ---------------- */
+
+
+.contact_sections.success select{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: black; 
+}
+
+/* This makes the small sections invisible to the user to wait until the user commits an error*/
+.contact_sections small{
+  visibility: hidden;
+  color: red;
+  font-size: 13px;
+}
+
+/* This makes the contact form input boxes red*/
+.contact_sections.error input{
+border: 1px solid red;
+border-radius: 5px;
+}
+
+/* This makes the small sections visible to the user beacuse the user commited an error*/
+.contact_sections.error small{
+visibility: visible;
+}

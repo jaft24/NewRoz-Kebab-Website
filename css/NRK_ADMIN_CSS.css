@@ -1,0 +1,184 @@
+.imgg{
+    height: 300px;
+    width: 300px;
+    margin-right: 35px;
+}
+.product_wrapp{
+    display: flex;
+    margin-bottom: 70px;
+}
+.menu_desc_topcanva{
+    position: relative;
+    top: 2%;
+    width: 62.25%;
+    height: 0.3%
+  }
+  .menu_desc_bottomcanva{
+    position: relative;
+    top: 70%;
+    width: 62.25%;
+    height: 1%
+  }
+  
+  .menu_top_leftcanva{
+    top: 30.5%;
+    left: 10%;
+    width: 36.5%;
+    height: 0.2%;
+  }
+  .menu_top_left_rightcanva{
+    top: 25%;
+    left: 12.5%;
+    height: 30%;
+  }
+  .menu_top_rightcanva1{
+    top: 138.5%;
+    right: 3%;
+    width: 60.5%;
+    height: 0.2%;
+  }
+  .menu_leftcanva{
+    top: 18%;
+    left: 4.5%;
+    height: 123%;
+  }
+  .menu_rightcanva{
+    top: 18%;
+    right: 4.5%;
+    height: 123%;
+  }
+  .menu_bottomcanva{
+    bottom: -65%;
+    left: 1%;
+    width: 97%;
+    height: 0.3%;
+  }
+
+  .menufaded1 {
+    position: absolute;
+    top: 49%;
+    left: 19%;
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f4e8;
+    padding: 5px;
+    opacity: 0.4;
+    text-align: justify;
+    border-radius: 80px;
+  }
+  .menufaded2 {
+    position: absolute;
+    top: 53%;
+    left: 46%;
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f4e8;
+    padding: 5px;
+    opacity: 0.4;
+    text-align: justify;
+    border-radius: 80px;
+  }
+  .menufaded3 {
+    position: absolute;
+    top: 53%;
+    left: 71%;
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f4e8;
+    padding: 5px;
+    opacity: 0.4;
+    text-align: justify;
+    border-radius: 80px;
+  }
+  .item_images{
+    padding-right:20px;
+
+  }
+.menufaded1:hover, 
+.menufaded2:hover,
+.menufaded3:hover
+ {
+  opacity: 0.9;
+  transform: scale(1.16);
+}
+
+/* Edit our page */
+
+.textareaa{
+    width: 100%;
+    height: 110px;
+    background: transparent;
+    border: 2px;
+    padding: 5px;
+    color: black; 
+    border-style:solid solid solid solid;
+    border-color: red;
+  }
+  .textareaaa{
+    width: 350%;
+    height: 90px;
+    background: transparent;
+    border: 2px;
+    padding: 5px;
+    color: black; 
+    border-style:solid solid solid solid;
+    border-color: red;
+  }
+  .update_button {
+    background-color: #fcebd1;
+    border: 0;
+    border-radius: 12px;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-left: 0%;
+    border: 1.5px solid red;
+  }
+
+  /* Edit Menu Page */
+
+  .foodUpdate{
+    background: transparent;
+    border: 1px;
+    border-style:solid solid solid solid;
+    padding: 5px;
+    color: black; 
+    border-color: red;
+  }
+  .foodUpdatee{
+    background: transparent;
+    border: 1px;
+    border-style:solid solid solid solid;
+    padding: 5px;
+    color: black; 
+    border-color: red;
+  }
+  
