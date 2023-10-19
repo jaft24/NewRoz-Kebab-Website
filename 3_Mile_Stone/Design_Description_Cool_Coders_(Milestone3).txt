@@ -1,0 +1,113 @@
+Page 1
+
+1 - This is the common header of all the pages it has the symbol in the middle and the pages Home, Our Story, Menu, Reservation, Order Now, and Contact Us pages.​
+
+2 - This button has a selected feel (pages button in the header changes to red whenever client is on the page). This is the "Home" button that has this page linked to it ​
+
+3, 4, 6, 7, 8 - The next button is "Out Story", "Menu", "Reservation", "Order Now", "Contact Us" that has its respective page linked to it.​
+
+5 - The logo is also going to be on all the pages (It will be linked to this page as a way to go to the homepage as well)​
+
+9 - This is the central image of the website. Since the restaurant is famous  for making Kebabs it is the central image of the home page.​
+
+10 - These logos will be linked to their respective social media pages that will take the client there.​
+
+11 - When scrolling down after the logo, we have the famous reviews of the restaurant by important critiques for the sake of promotion and client assurance. ​
+
+12 - This is just a side bar that promotes their logo "The Best Kabab's in Town" ​
+
+​Page 2
+
+1 - This is the common header of all the pages it has the symbol in the middle and the pages Home, Our Story, Menu, Reservation, Order Now, and Contact Us pages.​
+
+2 - This is the image of the owner that we took pictures of.​
+
+3 - This section contains about where Sarbest is from and how he founded the restaurant (header + text). ​
+
+4 - The mission statement is located beneath the story of Sarbest (header + text).​
+
+5 - This section contains a rate us page that has logos and are linked to their respected websites.   ​
+
+6 -  This is just an image that we took a picture of while Sarbest is serving a customer.  ​
+
+Page 3
+
+1 – This is the common header of all the pages it has the symbol in the middle and the pages Home, Our Story, Menu, Reservation, Order Now, and Contact Us pages.​
+
+2, 3, 4, 5, 6, 7 – This are images with their headers that have links that go into their respective pages with their products under it.​
+
+NB: We couldn’t not make separate page designs for these right now since we didn't acquire all the images for all the foods.​
+
+2. Meat with Rice: Ground beef Kebab, Chicken Tikka, Beef kebab with beef tikka, Lamb kebab with lamb tikka, Beef tikka, Chicken shawarma with rice, Chicken tikka beef kebab mix, Chicken tikka with  lamb mix​
+
+3. Stews and Salads:  Lamb kebab salad, Chicken tikka salad, Steak salads, Lamb stew​
+
+4. Meals: 10 pc falafel meal with fries, Mixed plate meal for 2​
+
+5. Sandwiches: Falafel sandwich with fries, Shawarma sandwich with fries, Chicken shawarma sandwich with fries, Chicken wrap with fries, Steak with Fries, Hummus with naan​
+
+6. Sides: Naan, Baklava, Fries​
+
+7. Drinks: Tea and Sodas.​
+
+​Page 4
+
+1 - This is the common header of all the pages it has the symbol in the middle and the pages Home, Our Story, Menu, Reservation, Order Now, and Contact Us pages.​
+
+2 - This is an image of the interior of the restaurant that we took ourselves.​
+
+3 - This section mentions their hours of operation (header + text).​
+
+4 - This header introduces the reservation form of the website.​
+
+5 - This is the first row of the table that has a calendar synced in that will assist the client in picking the desired date.​
+
+6 - This is the second row of the table that has a time synced in that will assist the client in picking the desired time on the specified date.​
+
+7 - his is the third column of the table that will assist the client in picking the number of people attending the event.​
+
+8 - This button will take you to the next java script where the customer reviews and confirms his reservation by name and phone number.​
+
+9 - This section mentions the address and phone number of the restaurant (header + text).​
+
+10 – The last header "Find us" has the image of a google map of the restaurant and is also linked to the google website that has the location. ​
+
+​Page 5
+
+1 - This is the common header of all the pages it has the symbol in the middle and the pages Home, Our Story, Menu, Reservation, Order Now, and Contact Us pages.​
+
+2 - This an option box whether the user can either choose delivery or pickup buttons​
+
+3 - Text field which accepts address of the user and the apartment or the suite number​
+
+4 - It's a drop box which the user chooses the date and time.​
+
+5 - Place order button that takes you to the food listing page so a client can choose food to order. ​
+
+Page 5.2 (jscript)
+
+1 - This is the common header of all the pages it has the symbol in the middle and the pages Home, Our Story, Menu, Reservation, Order Now, and Contact Us pages.​
+
+2 - It's a drop box which the user chooses the date and time of pickup​
+
+3 - Place order button that takes you to the food listing page so a client can choose food to order.​
+
+Page 6
+
+1 - This is the common header of all the pages it has the symbol in the middle and the pages Home, Our Story, Menu, Reservation, Order Now, and Contact Us pages.​
+
+2 - It’s the contact form which stores the data of the customer ​
+
+3 - It is for of Name, Email & Phone which is use Text Field for each of them respectively. ​
+
+4 - It's a radio button which make them choose that whether they are the previous customer or not. ​
+
+5 - It's Text Areas which is used to store the message from the customer. ​
+
+6 - This is a submit button which is used to submit the information that has been entered by the user and sends the database to the contact us in the our story section. ​
+
+​
+
+​
+
+​
