@@ -1,0 +1,122 @@
+<!---------------------------------------------------->
+<!------------ADMIN MENU EDIT PAGE-------------------->
+<!---------------------------------------------------->
+
+
+
+<html>
+    <head>
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="styleSheet" href="../../css/NRK_CSS.css"> 
+        <link rel="styleSheet" href="../../css/NRK_CSS_2.css"> 
+        <link rel="styleSheet" href="../../css/NRK_ADMIN_CSS.css">
+        <!--- Provides a link to the Style Sheet --->  
+        <title>  NewRoz Kebab Resturant Menu </title>       <!--- The title of the website --->
+        
+        <div class = "header">
+            <!--- Header Buttons --->
+            <button type="button" name = "Home_Button" class = "button" onclick=" "> <a class="a" href="../../index.php"> HOME </a> </button>
+            <button type="button" name = "Our_Story_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Our_Story.html"> OUR STORY </a> </button>
+            <button type="button" name = "Reservation_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Reservation.php" > RESERVATIONS </a> </button>
+                  
+            <img name = "NRK_logo" class = "NRK_logo"  src="../../images/Header_logo.png" alt="NewRoz Kebab Logo Image" width=" " height=" ">
+       
+            <button type="button" name = "Order_Now_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Order_Now.php" > ORDER NOW</a> </button>
+            <button type="button" name = "Menu_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Menu.html"> MENU </a> </button>
+            <button type="button" name = "Contact_Us_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Contact_Us.php" > CONTACT US </a> </button>
+    
+        </div>
+
+
+    </head>
+
+    <body>
+
+        <h2 class="MandRheader"> <span class = "spaner" style="color :red;">S</span><span style="color :black;">ides</span> </h2> <br>
+                       
+
+          <!-- This is the section where the admin edits the menu y inserting image price and it's name and then update it  -->
+            <!-- Top Section  -->
+<div class="ground_Kebab_Items">
+
+    <div class="menu_wrap">             
+                
+    <div class="product_item">
+        <div class="item_image">
+            <img class="item_image" src="../../images/Naan.jpg">
+        </div>
+        <div class="item_bottom">
+            <div class="item_name">    
+                <h3 style="text-align:center">#1 Naan</h3>
+            </div>
+            <div class="item_description">
+                <p class="p">$1.59</p>
+                <button type="button" name = "Order_Now_Button" class = "bTon" onclick=" "> <a class="a" href="../pages/Order_Now.html" > ADD TO CART </a> </button>
+            </div>
+        </div>
+    </div>
+             
+
+    
+    <div class="product_item">
+        <div class="item_image">
+            <img class="item_image" src="../../images/Baklava.jpeg">
+        </div>
+        <div class="item_bottom">
+            <div class="item_name">    
+                <h3 style="text-align:center">#2 Baklava</h3>
+            </div>
+            <div class="item_description">
+                <p class="p">$10.64</p>
+                <button type="button" name = "Order_Now_Button" class = "bTon" onclick=" "> <a class="a" href="../pages/Order_Now.html" > ADD TO CART </a> </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product_item">
+        <div class="item_image">
+            <img class="item_image" src="../../images/French_Fries.jfif">
+        </div>
+        <div class="item_bottom">
+            <div class="item_name">    
+                <h3 style="text-align:center;">#3 Fries</h3>
+            </div>
+            <div class="item_description">
+                <p class="p">$3.99</p>
+                <button type="button" name = "Order_Now_Button" class = "bTon" onclick=" "> <a class="a" href="../pages/Order_Now.html" > ADD TO CART </a> </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is where if the admin adds food the admin adds the image and and edit the name and update price  -->
+    <div class="product_item">
+        <div class="item_image">
+            <a class="b" href="../Cart.html"></a><img class="item_images" src="../../images/addImage.PNG"></a>
+        </div>
+        <div class="item_bottom">
+            <div class="item_name">    
+                <input type="text"  class ="foodUpdate"placeholder="Name of Food" name="FoodName" id="FoodName">
+            </div>
+            <div class="item_description">
+                &emsp;<input type="text"  class ="foodUpdatee"placeholder="Update Price" name="FoodName" id="FoodName" style="width: 100px; margin-bottom: 5px;">&emsp;&emsp;&emsp;&emsp;
+                <input class="update_button" type="submit" value="Update">
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+</div> <br> <br>
+
+</div>
+
+
+
+</body>
+
+</html>

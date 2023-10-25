@@ -1,0 +1,87 @@
+<html>
+    <head>
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="styleSheet" href="../css/NRK_CSS.css"> <!--- Provides a link to the Style Sheet --->  
+        <link rel="styleSheet" href="../css/NRK_ADMIN_CSS.css">
+        <title>  NewRoz Kebab Resturant Menu </title>       <!--- The title of the website --->
+        
+        <div class = "header">
+            <!--- Header Buttons --->
+            <button type="button" name = "Home_Button" class = "button" onclick=" "> <a class="a" href="../index.php"> HOME </a> </button>
+            <button type="button" name = "Our_Story_Button" class = "button" onclick=" "> <a class="a" href="../pages/Our_Story.html"> OUR STORY </a> </button>
+            <button type="button" name = "Reservation_Button" class = "button" onclick=" "> <a class="a" href="../pages/Reservation.php" > RESERVATIONS </a> </button>
+                  
+            <img name = "NRK_logo" class = "NRK_logo"  src="../images/Header_logo.png" alt="NewRoz Kebab Logo Image" width=" " height=" ">
+       
+            <button type="button" name = "Order_Now_Button" class = "button" onclick=" "> <a class="a" href="../pages/Order_Now.php" > ORDER NOW</a> </button>
+            <button type="button" name = "Menu_Button" class = "button" onclick=" "> <a class="a" href="../pages/Menu.html"> MENU </a> </button>
+            <button type="button" name = "Contact_Us_Button" class = "button" onclick=" "> <a class="a" href="../pages/Contact_Us.php" > CONTACT US </a> </button>
+    
+        </div>
+
+
+    </head>
+
+    <body>
+        <!-- This is the part which the admin has the access to edit the menu the story and the data table-->
+        <h2 class="menu_header"> ADMIN </h2>
+            <!-- Top Section -->
+            <div class="menu_items">
+            <div class="product_wrapp">
+     
+                <div class="product_item">
+                <div>
+                <img class="imgg" src="../images/FIX.png">
+                </div>
+                </div>
+
+         
+                <div class="product_item">
+                <div>
+                <img class="imgg" src="../images/FIX.png" class="Stew">
+                </div>
+                </div>
+        
+          
+                <div class="product_item">
+                <div>
+                <img class="imgg" src="../images/FIX.png">
+                </div>
+                </div>
+              
+            </div>
+            
+            
+            <!-- This is the div that controls the story page -->
+            <a class="b" href="AdminPages/Edit_Story.html"><div class="menufaded1"> 
+                    
+                    <canvas id="menu_desc_top_canva" class="menu_desc_top_canva"> </canvas><br>
+                    <h3 class="menu_label"> <span class = "spaner" style="color :red;">E</span><span style="color :black;">dit</span>
+                    <span class = "spaner" style="color :red;">O</span><span style="color :black;">ur</span> 
+                    <span class = "spaner" style="color :red;">S</span><span style="color :black;">tory</span>  </h3>
+                    <canvas id="menu_desc_bottom_canva" class="menu_desc_top_canva"> </canvas>
+  
+            </div></a>
+            <!-- This is the div that controls the menu page -->
+            <a class="b" href="AdminPages/Edit_Menu.html"><div class="menufaded2"> 
+                    <canvas id="menu_desc_top_canva" class="menu_desc_top_canva"> </canvas><br>
+                    <h3 class="menu_label"> <span class = "spaner" style="color :red;">E</span><span style="color :black;">dit</span>
+                    <span class = "spaner" style="color :red;">M</span><span style="color :black;">enu</span> </h3>
+                    <canvas id="menu_desc_bottom_canva" class="menu_desc_top_canva"> </canvas>
+  
+            </div></a>
+            <!-- This is the div that controls the edit data table page -->
+            <a class="b" href="../pages/try.php"><div class="menufaded3"> 
+                    <canvas id="menu_desc_top_canva" class="menu_desc_top_canva"> </canvas><br>
+                    <h3 class="menu_label"> <span class = "spaner" style="color :red;">A</span><span style="color :black;">dmin</span>
+                    <span class = "spaner" style="color :red;">T</span><span style="color :black;">able</span>   </h3>
+                    <canvas id="menu_desc_bottom_canva" class="menu_desc_top_canva"> </canvas>
+  
+            </div></a>
+                
+</body>
+   
+</html> 

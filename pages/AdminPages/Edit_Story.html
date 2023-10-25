@@ -1,0 +1,80 @@
+<!---------------------------------------------------->
+<!-----------ADMIN STORY EDIT PAGE-------------------->
+<!---------------------------------------------------->
+
+
+<html>
+    <head>
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="styleSheet" href="../../css/NRK_CSS.css"> <!--- Provides a link to the Style Sheet --->  
+        <link rel="styleSheet" href="../../css/NRK_ADMIN_CSS.css">
+        <title>  NewRoz Kebab Resturant Our Story</title>       <!--- The title of the website --->
+  
+        <div class = "header">
+            <!--- Header Buttons --->
+            <button type="button" name = "Home_Button" class = "button" onclick=" "> <a class="a" href="../../index.php"> HOME </a> </button>
+            <button type="button" name = "Our_Story_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Our_Story.html"> OUR STORY </a> </button>
+            <button type="button" name = "Reservation_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Reservation.php" > RESERVATIONS </a> </button>
+                  
+            <img name = "NRK_logo" class = "NRK_logo"  src="../../images/Header_logo.png" alt="NewRoz Kebab Logo Image" width=" " height=" ">
+       
+            <button type="button" name = "Order_Now_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Order_Now.php" > ORDER NOW</a> </button>
+            <button type="button" name = "Menu_Button" class = "button" onclick=" "> <a class="a" href="../../pages/Menu.html"> MENU </a> </button>
+            <button type="button" name = "Contact_Us_Button" class = "button" onclick=" "> <a class="a" href="../pages/Contact_Us.php" > CONTACT US </a> </button>
+    
+        </div>
+
+    </head>
+
+    <body>
+
+
+    <!-- This where the admin uses the updating button to update the actual story page by inserting in this text area what ever the admin wants to update it to-->
+    <div class = "our_story_top_section">
+        <div class="sarbest_image">    
+        <img name = "sarbest_image" class = "Sarbest_image" src="../../images/Sarbest_Kurdistan.png" alt="Sarbest Kurdistan Kebab Image" >
+        </div>
+        <div class="sarbest_description">
+            <h2 style="margin-left: 3%;"> <span class = "spaner" style="color :red;">S</span><span style="color :black;">arbest</span>
+                <span class = "spaner" style="color :red;">K</span><span style="color :black;">urdistan</span> </h2> <br>      
+            <div class="owner_description_div">
+            
+                <textarea id="textareaaa" class="textareaa" placeholder="Write the Updated text here" onclick="check();"oninput="update(this.value);"></textarea><br><br>
+                <input class="update_button" type="submit" id="btn1"  onclick='doChange()'value="Update">
+        </div>
+        </div>
+
+
+        <div class="rate_us_on">
+           <h2> <span class = "spaner" style="color :red;">R</span><span style="color :black;">ate</span>
+            <span class = "spaner" style="color :red;">U</span><span style="color :black;">s</span>
+                <span class = "spaner" style="color :red;">O</span><span style="color :black;">n</span> </h2> <br>
+        <a href="https://www.tripadvisor.com/"><img name = "TripAdvisor_image" src="../../images/tripadvisor.png" alt="Sarbest Kurdistan Kebab Image" ></a>
+        <a href="https://support.google.com/maps/answer/6230175?hl=en&co=GENIE.Platform%3DDesktop/"><img name = "Google_image" src="../../images/google.png" alt="Sarbest Kurdistan Kebab Image"></a> <br>
+        <a href="https://www.yelp.com/writeareview"><img name = "Yelp_image" src="../../images/yelp.png" alt="Sarbest Kurdistan Kebab Image"></a>
+        </div>    
+    </div> <br>
+
+
+     <div class="our_story_bottom_section">   
+            <div class = "our_mission">
+                <h2 style="margin-left: 7%;"> <span class = "spaner" style="color :red;">O</span><span style="color :black;">ur</span>
+                <span class = "spaner" style="color :red;">M</span><span style="color :black;">ission</span> </h2> <br>
+            <div class = "mission_descrption_div">
+                <textarea id="textarea" class="textareaaa" placeholder="Write the Updated text here" oninput="update(this.value);"></textarea><br><br>
+                <input class="update_button" type="submit" value="Update">
+            </div>
+            </div>
+            <div class="mission_image">
+            <img name = "customer_image" class = "customer_image" src="../../images/Customer.png" alt="Sarbest Kurdistan Kebab Image">
+            </div>
+    </div>
+
+    <script src="../../jscript/JS_ADMIN.js"></script>
+
+</body>
+   
+</html>
